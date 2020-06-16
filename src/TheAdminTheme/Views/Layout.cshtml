@@ -4,7 +4,7 @@
 @{
     var adminSettings = Site.As<ContentItem>("TheAdminThemeSettings")?.Content?.TheAdminThemeSettings;
     string logoUrl = (adminSettings?.Logo?.Paths != null) ? Orchard.AssetUrl((string)adminSettings?.Logo?.Paths[0], 32) : "/TheAdminTheme/logo.png";
-    string faviconUrl = (adminSettings?.Favicon?.Paths != null) ? Orchard.AssetUrl((string)adminSettings?.Favicon.Paths[0]) : "/TheAdminTheme/favicon.ico";
+    string faviconUrl = (adminSettings?.Favicon?.Paths != null) ? Orchard.AssetUrl((string)adminSettings?.Favicon?.Paths[0]) : "/TheAdminTheme/favicon.ico";
     string head = adminSettings?.Head?.Text ?? string.Empty;
     string foot = adminSettings?.Foot?.Text ?? string.Empty;
 }
