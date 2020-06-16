@@ -1,0 +1,106 @@
+{
+  "name": "TheAdminThemeSettings",
+  "displayName": "The Admin Theme Settings",
+  "description": "Provides admin theme settings.",
+  "author": "Antoine Griffard",
+  "website": "http://antoinegriffard.com",
+  "version": "2.0",
+  "issetuprecipe": false,
+  "categories": [ "settings" ],
+  "tags": [ "admin" ],
+  "steps": [
+    {
+      "name": "ContentDefinition",
+      "ContentTypes": [
+        {
+          "Name": "TheAdminThemeSettings",
+          "DisplayName": "The Admin Theme",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Creatable": true,
+              "Listable": true,
+              "Draftable": true,
+              "Versionable": true,
+              "Stereotype": "CustomSettings",
+              "Securable": true
+            },
+            "FullTextAspectSettings": {}
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "TheAdminThemeSettings",
+              "Name": "TheAdminThemeSettings",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "ContentParts": [
+        {
+          "Name": "TheAdminThemeSettings",
+          "Settings": {},
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "MediaField",
+              "Name": "Logo",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Logo",
+                  "Position": "0"
+                },
+                "ContentIndexSettings": {},
+                "MediaFieldSettings": {
+                  "Multiple": false
+                }
+              }
+            },
+            {
+              "FieldName": "MediaField",
+              "Name": "Favicon",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Favicon",
+                  "Position": "1"
+                },
+                "ContentIndexSettings": {},
+                "MediaFieldSettings": {
+                  "Multiple": false
+                }
+              }
+            },
+            {
+              "FieldName": "TextField",
+              "Name": "Head",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Head",
+                  "Editor": "CodeMirror",
+                  "Position": "2"
+                },
+                "TextFieldSettings": {},
+                "ContentIndexSettings": {}
+              }
+            },
+            {
+              "FieldName": "TextField",
+              "Name": "Foot",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Foot",
+                  "Editor": "CodeMirror",
+                  "Position": "3"
+                },
+                "TextFieldSettings": {},
+                "ContentIndexSettings": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
