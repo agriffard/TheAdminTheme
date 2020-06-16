@@ -1,6 +1,6 @@
 # Admin theme for Orchard Core
 
-Orchard Core admin theme
+Orchard Core admin theme with custom settings (logo, favicon, head and foot).
 
 ## Status
 
@@ -9,5 +9,5 @@ Orchard Core admin theme
 
 ## Getting Started
 
-- Add the nuget package as a reference to your application using Orchard Core Cms Target.
+- Add the nuget package as a reference to your application.
 
