@@ -71,32 +71,6 @@
                   "Multiple": false
                 }
               }
-            },
-            {
-              "FieldName": "TextField",
-              "Name": "Head",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "Head",
-                  "Editor": "CodeMirror",
-                  "Position": "2"
-                },
-                "TextFieldSettings": {},
-                "ContentIndexSettings": {}
-              }
-            },
-            {
-              "FieldName": "TextField",
-              "Name": "Foot",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "Foot",
-                  "Editor": "CodeMirror",
-                  "Position": "3"
-                },
-                "TextFieldSettings": {},
-                "ContentIndexSettings": {}
-              }
             }
           ]
         }
