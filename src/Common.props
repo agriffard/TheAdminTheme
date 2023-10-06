@@ -4,7 +4,6 @@
     <Authors>Antoine Griffard</Authors>
     <RepositoryUrl>https://github.com/agriffard/TheAdminTheme</RepositoryUrl>
     <PackageProjectUrl>https://github.com/agriffard/TheAdminTheme</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/agriffard/TheAdminTheme/blob/master/LICENSE</PackageLicenseUrl>
     <TargetFrameworks>net6.0</TargetFrameworks>
     <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
