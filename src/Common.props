@@ -5,7 +5,7 @@
     <RepositoryUrl>https://github.com/agriffard/TheAdminTheme</RepositoryUrl>
     <PackageProjectUrl>https://github.com/agriffard/TheAdminTheme</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/agriffard/TheAdminTheme/blob/master/LICENSE</PackageLicenseUrl>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFrameworks>net6.0</TargetFrameworks>
     <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <DebugType>embedded</DebugType>

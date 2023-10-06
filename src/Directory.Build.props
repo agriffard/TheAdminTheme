@@ -5,8 +5,8 @@
     <Title>Admin Theme</Title>
     <Description>Admin Theme for Orchard Core</Description>
     <PackageTags>Theme;OrchardCore</PackageTags>
-    <VersionPrefix>1.0.0</VersionPrefix>
-    <VersionSuffix>rc2</VersionSuffix>
+    <VersionPrefix>1.7.0</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
   </PropertyGroup>
 
   <!-- Called after so that the <VersionSuffix> is built after the local ones -->

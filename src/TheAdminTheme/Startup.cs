@@ -2,15 +2,16 @@ using Microsoft.Extensions.DependencyInjection;
 using OrchardCore.Modules;
 using OrchardCore.ResourceManagement;
 using OrchardCore.Data.Migration;
+using Microsoft.Extensions.Options;
 
 namespace TheAdminTheme
 {
     public class Startup : StartupBase
     {
-        public override void ConfigureServices(IServiceCollection serviceCollection)
+        public override void ConfigureServices(IServiceCollection services)
         {
-            serviceCollection.AddScoped<IDataMigration, Migrations>();
-            serviceCollection.AddScoped<IResourceManifestProvider, ResourceManifest>();
+            services.AddScoped<IDataMigration, Migrations>();
+            services.AddTransient<IConfigureOptions<ResourceManagementOptions>, ResourceManagementOptionsConfiguration>();
         }
     }
 }

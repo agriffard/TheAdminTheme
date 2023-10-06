@@ -1,0 +1,19 @@
+@using Microsoft.Extensions.Options;
+@using OrchardCore.Admin;
+@using OrchardCore.ContentManagement;
+@inject IOptions<AdminOptions> AdminOptions
+@{
+    var theAdminThemeSettings = Site.As<ContentItem>("TheAdminThemeSettings")?.Content?.TheAdminThemeSettings;
+    string logoUrl = (theAdminThemeSettings?.Logo?.Paths != null && theAdminThemeSettings?.Logo?.Paths.Count > 0) ? Orchard.AssetUrl((string)theAdminThemeSettings?.Logo?.Paths[0], 32) : "/TheAdminTheme/logo.png";
+    string faviconUrl = (theAdminThemeSettings?.Favicon?.Paths != null && theAdminThemeSettings?.Favicon?.Paths.Count > 0) ? Orchard.AssetUrl((string)theAdminThemeSettings?.Favicon?.Paths[0]) : "/TheAdminTheme/favicon.ico";
+}
+<zone name="HeadMeta">
+    <link href="@faviconUrl" type="image/x-icon" rel="shortcut icon" />
+</zone>
+
+<a class="ta-navbar-brand" href="@Url.Content("~/" + AdminOptions.Value.AdminUrlPrefix)">
+    <div class="d-flex align-items-center">
+        <img src="@logoUrl" alt="@Site.SiteName" />
+        <span>@Site.SiteName</span>
+    </div>
+</a>
