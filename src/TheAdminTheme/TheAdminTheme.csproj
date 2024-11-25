@@ -6,18 +6,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="OrchardCore.Admin" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.ContentManagement" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.ContentManagement.Display" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.Contents" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.DisplayManagement" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.Liquid" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.Media" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.ResourceManagement.Abstractions" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.Themes" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.Theme.Targets" Version="2.1.0" />
-		<PackageReference Include="OrchardCore.Users" Version="2.1.0" />
+		<PackageReference Include="OrchardCore.Admin" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.ContentManagement" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.ContentManagement.Display" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.Contents" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.DisplayManagement" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.Liquid" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.Media" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.ResourceManagement.Abstractions" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.Themes" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.Theme.Targets" Version="2.1.1" />
+		<PackageReference Include="OrchardCore.Users" Version="2.1.1" />
 	</ItemGroup>
 
 </Project>
